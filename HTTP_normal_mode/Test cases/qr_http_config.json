@@ -1,0 +1,107 @@
+[
+  {
+    "config_data1": "{w_mode=1,de_type=64511,chorc=1,prefix=\"\",postfix=\"\",cr=0,nl=0,s_mode=0,interval=500,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,ord=0,idord=0}",
+    "name": "http扫码直接输出",
+    "num": 1
+  },
+   {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,chorc=1,prefix=\"\",postfix=\"\",cr=0,nl=0}",
+    "name": "扫码前后缀格式为char，不输入前后缀"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,chorc=1,prefix=\"3132\",postfix=\"3132\",cr=0,nl=0}",
+    "name": "扫码添加char前后缀3132"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,chorc=1,prefix=\"31 32\",postfix=\"31 32\",cr=0,nl=0}",
+    "name": "扫码添加char前后缀31 32"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,chorc=1,prefix=\"\",postfix=\"\",cr=0,nl=0}",
+    "name": "扫码前后缀格式为hex，不输入前后缀"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,chorc=2,prefix=\"3132\",postfix=\"3132\",cr=0,nl=0}",
+    "name": "扫码添加hex前后缀3132"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,chorc=2,prefix=\"31 32\",postfix=\"31 32\",cr=0,nl=0}",
+    "name": "扫码添加hex前后缀31 32"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,chorc=1,prefix=\"\",postfix=\"\",cr=1,nl=0}",
+    "name": "扫码加回车"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,chorc=1,prefix=\"\",postfix=\"\",cr=0,nl=1}",
+    "name": "扫码加换行"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,chorc=1,prefix=\"\",postfix=\"\",cr=1,nl=1}",
+    "name": "扫码加回车、换行"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,chorc=1,prefix=\"\",postfix=\"\",cr=0,nl=0,s_mode=0}",
+    "name": "扫码间隔模式"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,s_mode=0,interval=50}",
+    "name": "扫码间隔模式50ms"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,s_mode=0,interval=1000}",
+    "name": "扫码间隔模式1000ms"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,s_mode=0,interval=500}",
+    "name": "扫码间隔模式500ms"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,ascan=1,beepd=300,ledd=200}",
+    "name": "扫码蜂鸣器延迟300ms"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,ascan=1,beepd=30,ledd=200}",
+    "name": "扫码蜂鸣器延迟30ms"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,ft=1}",
+    "name": "扫码输出char（数字字符）转hex，扫码：1234567890"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,ft=2}",
+    "name": "扫码输出char（数字字符）转hex反序，扫码1234567890"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,ft=4}",
+    "name": "扫码输出char（十六进制字符）转hex，扫码1A2B3C4D"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,ft=8}",
+    "name": "扫码输出char（十六进制字符）转hex反序，扫码1A2B3C4D"
+  },
+  {"img_path":"D://python/python learning/AUTO TEST/N_serial/TEST_TK//1.png"},
+  {
+    "config_data1": "{w_mode=1,de_type=64511,ft=0}",
+    "name": "扫码直接输出，扫码测试结束"
+  }
+]

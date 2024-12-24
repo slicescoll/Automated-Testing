@@ -1,0 +1,109 @@
+ [{
+   "config_data1": "{w_mode=1,de_type=64511,chorc=1,prefix=\"\",postfix=\"\",cr=0,nl=0,s_mode=0,interval=500,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,ord=0,idord=0}",
+    "name": "http输出，打开刷卡，进行刷卡测试"
+ },
+ {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=1,len=8,nft=1,horc=0,pri=\"3132\",pos=\"3132\"}",
+    "name": "刷卡添加char前后缀3132"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=1,len=8,nft=1,horc=0,pri=\"31 32\",pos=\"31 32\"}",
+    "name": "刷卡添加char前后缀31 32"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=1,len=8,nft=1,horc=1,pri=\"3132\",pos=\"3132\"}",
+    "name": "刷卡添加hex前后缀3132"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=1,len=8,nft=1,horc=1,pri=\"31 32\",pos=\"31 32\"}",
+    "name": "刷卡添加hex前后缀31 32"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=1,len=8,nft=1,olid_audio=0,anfc=1,ord=1,idord=1}",
+    "name": "刷卡反序"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=1,len=8,nft=1,olid_audio=0,anfc=1,ord=0,idord=0}",
+    "name": "刷卡正序"
+  },
+   {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3}",
+    "name": "刷卡打开NFC、身份证物理卡号"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=1,len=8,nft=0}",
+    "name": "刷卡直接输出"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=1,len=8,nft=2}",
+    "name": "刷卡转10进制输出"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=1,len=8,nft=1}",
+    "name": "刷卡转16进制输出"
+  },
+    {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=1,len=1,nft=1}",
+    "name": "刷卡起始位1，输出长度1"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=1,len=2,nft=1}",
+    "name": "刷卡起始位1，输出长度2"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=1,len=3,nft=1}",
+    "name": "刷卡起始位1，输出长度3"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=1,len=4,nft=1}",
+    "name": "刷卡起始位1，输出长度4"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=2,len=1,nft=1}",
+    "name": "刷卡起始位2，输出长度1"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=2,len=2,nft=1}",
+    "name": "刷卡起始位2，输出长度2"
+  },
+      {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=2,len=3,nft=1}",
+    "name": "刷卡起始位2，输出长度3"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=2,len=4,nft=1}",
+    "name": "刷卡起始位2，输出长度4"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=3,len=1,nft=1}",
+    "name": "刷卡起始位3，输出长度1"
+  },
+   {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=3,len=2,nft=1}",
+    "name": "刷卡起始位3，输出长度2"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=3,len=3,nft=1}",
+    "name": "刷卡起始位3，输出长度3"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=3,len=4,nft=1}",
+    "name": "刷卡起始位3，输出长度4"
+  },
+    {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=4,len=1,nft=1}",
+    "name": "刷卡起始位4，输出长度1"
+  },
+   {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=4,len=2,nft=1}",
+    "name": "刷卡起始位4，输出长度2"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=4,len=3,nft=1}",
+    "name": "刷卡起始位4，输出长度3"
+  },
+  {
+    "config_data1": "{w_mode=1,nfc=1,nfc_identity_card_enable=1,nfc_card_protocol=3,st=4,len=4,nft=1}",
+    "name": "刷卡起始位4，输出长度4"
+  }
+]
